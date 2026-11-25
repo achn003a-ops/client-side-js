@@ -1,0 +1,21 @@
+/* button{
+    padding : 5px 20px;
+    border : none;
+    border-radius : 15px;
+    background-color: lightcoral;
+    color : white;
+    font-weight : bold;
+    letter-spacing : 1px;
+} */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    gap: 20px;
+    align-items: flex-start;
+}
+

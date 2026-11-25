@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .container-dark{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding: 50px;
+        position: relative;
+        background-color: rgb(13, 13, 43);
+    }
+
+    .h1-dark{
+        color: rgb(219, 165, 27)
+    }
+
+    .para-dark  {
+        color: rgb(207, 199, 199);
+    }
+
+    .container button{
+        background-color: rgb(141,139,30);
+        color: rgb(6,6,24);
+        max-width: 100px;
+        border: none;
+        border-radius: 10px;
+        padding: 5px 0px;
+        font-weight: bold;
+    }
+
+    .change-mode{
+        background-color: rgb(141,139,30);
+        color: rgb(6,6,24);
+        position: absolute;
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+        font-weight: bold;
+        right: 30px
+
+    }
+    
+
+    .container-light{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding: 50px;
+        position: relative;
+        background-color: rgb(196, 196, 202);
+    }
+
+     .para-light {
+        color: rgb(24, 23, 23);
+    }
+
+     .h1-light{
+        color: rgb(15, 14, 10)
+    }
+
+
+</style>
+<body>
+    
+    <section class="container-dark container-light" id="container">
+        <button class="change-mode" id="change-mode">Light Mode</button>
+        <h1 id="heading" class="h1-dark h1-light">This is a section</h1>
+        <p id="para" class="para-dark para-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, vitae natus neque aut inventore omnis iure tenetur alias blanditiis accusamus odit? Similique, consequuntur dolorum iure ullam ducimus id!</p>
+        <button>Click Me</button>
+    </section>
+
+    <script src="modifyingcss.js"></script>
+</body>
+</html>
